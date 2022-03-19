@@ -9,25 +9,33 @@
 </head>
 
 <body>
-    <h2 id="clock">00:00:00</h2>
-    <form class="hidden" id="login-form">
-        <input required maxlength="15" type="text" placeholder="What is your name?" />
-        <input type="submit" value="Log In" />
-    </form>
-    <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-        <span></span>
-        <span></span>
+    <div class="outer">
+        <div class="inner">
+            <h2 id="clock">00:00:00</h2>
+
+            <form class="hidden" id="login-form">
+                <input required maxlength="15" type="text" placeholder="What is your name?" />
+                <input type="submit" value="Log In" />
+            </form>
+            <h1 class="hidden" id="greeting"></h1>
+
+            <form id="todo-form">
+                <input type="text" placeholder="Write a To Do and Press Enter" required style="width : 180px; height : 20px;" />
+            </form>
+            <ul id="todo-list"></ul>
+
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <footer>
+            <div id="quote">
+                <span></span>
+                <span></span>
+            </div>
+        </footer>
     </div>
-    <div id="weather">
-        <span></span>
-        <span></span>
-    </div>
-    <h1 class="hidden" id="greeting" ></h1>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>

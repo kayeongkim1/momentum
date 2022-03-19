@@ -1,0 +1,24 @@
+{
+  "name": "momentum",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "momentum_nomadcoders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayeongkim1/kayeongkim1.github.io.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "kayeong kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayeongkim1/kayeongkim1.github.io/issues"
+  },
+  "homepage": "https://github.com/kayeongkim1/kayeongkim1.github.io#readme"
+}
+

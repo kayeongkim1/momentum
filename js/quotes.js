@@ -48,4 +48,4 @@ const quotes = [
   
   quote.innerText = todaysQuote.quote;
   
-  author.innerText = todaysQuote.author;
+  author.innerText = ` -${todaysQuote.author}`;
